@@ -14,7 +14,7 @@ from gpiozero import Device, LED
 from gpiozero.pins.mock import MockFactory
 
 # Used for testing on PC
-Device.pin_factory = MockFactory()
+# Device.pin_factory = MockFactory()
 
 class GpioOnStartupPlugin(octoprint.plugin.StartupPlugin,
     octoprint.plugin.ShutdownPlugin,
