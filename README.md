@@ -1,6 +1,6 @@
 # OctoPrint-GpioOnStartup
 
-**TODO:** Describe what your plugin does.
+Adds a GPIO pin that can be set high on startup includes some configuration settings.
 
 ## Setup
 
@@ -9,9 +9,5 @@ or manually using this URL:
 
     https://github.com/seabass992/OctoPrint-GpioOnStartup/archive/master.zip
 
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
-
 ## Configuration
-
-**TODO:** Describe your plugin's configuration options (if any).
+Just one setting to specify the pin to set high on startup
